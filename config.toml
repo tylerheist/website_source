@@ -1,4 +1,4 @@
-baseURL = "https://tylerheist.github.io/"
+baseURL = "https://www.tylerheist.com"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -146,7 +146,7 @@ theme = "LoveIt"
   # Social config about the author
   [params.social]
     Twitter = "TylerHeist"
-    GitHub = ""#"tylerheist"
+    GitHub = "tylerheist"
     Linkedin = "tylerheist"
     Instagram = ""
     Facebook = ""
@@ -207,7 +207,7 @@ theme = "LoveIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "email@tylerheist.com"
     RSS = false # LoveIt NEW | 0.2.0
 
   # LoveIt CHANGED | 0.2.0 Page config
@@ -488,7 +488,7 @@ theme = "LoveIt"
 # Author config
 [author]
   name = "Tyler Heist"
-  email = "tylerheist@gmail.com"
+  email = "email@tylerheist.com"
   link = "/about/"
 
 # Sitemap config
@@ -533,7 +533,7 @@ theme = "LoveIt"
   [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
+    pre = "&#128211;"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Posts"
@@ -543,7 +543,7 @@ theme = "LoveIt"
     weight = 1
   [[menu.main]]
     identifier = "about"
-    pre = ""
+    pre = "&#128522;"
     post = ""
     name = "About"
     url = "/about/"
@@ -551,7 +551,7 @@ theme = "LoveIt"
     weight = 2
   [[menu.main]]
     identifier = "CV"
-    pre = ""
+    pre = "&#128175;"
     post = ""
     name = "CV"
     url = "/CV.pdf"
