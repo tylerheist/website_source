@@ -44,7 +44,7 @@ theme = "LoveIt"
 
   # LoveIt NEW | 0.2.0 Search config
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ("lunr", "algolia")
     type = "lunr"
     # max index length of the chunked content
@@ -123,11 +123,11 @@ theme = "LoveIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/TylerHeist.jpg"
+      avatarURL = "/images/headshot-mono.png"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "Hi, I'm Tyler. I'm a data scientist and computational biologist."
+      subtitle = "Hi, I'm Tyler. I'm an experienced data engineer and scientist. <html>&#128075;</html>"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -530,17 +530,17 @@ theme = "LoveIt"
   taxonomyTerm = ["HTML"]
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
+  #[[menu.main]]
+  #  identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = "&#128211;"
+  #  pre = "&#128211;"
     # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
+  #  post = ""
+  #  name = "Posts"
+  #  url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
+  #  title = ""
+  #  weight = 1
   [[menu.main]]
     identifier = "about"
     pre = "&#128522;"
@@ -548,10 +548,18 @@ theme = "LoveIt"
     name = "About"
     url = "/about/"
     title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "resume"
+    pre = "&#128200;"
+    post = ""
+    name = "Resume"
+    url = "/resume.pdf"
+    title = ""
     weight = 2
   [[menu.main]]
     identifier = "CV"
-    pre = "&#128175;"
+    pre = "&#129299;"
     post = ""
     name = "CV"
     url = "/CV.pdf"
