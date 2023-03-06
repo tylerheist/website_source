@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2023-02-28
+date: 2023-03-06
 draft: false
 ---
 <img style="float:right;border-radius: 50%;margin:30px" src="../images/headshot.png" height=250/> 
